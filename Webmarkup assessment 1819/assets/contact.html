@@ -1,0 +1,72 @@
+<! DOCTYPE html >
+<html lang = "nl" >
+	<head>
+		<meta charset = "utf-8" >
+		<title>Company Name - Contact</title>
+		<link
+			rel = "stylesheet"
+			type = "text/css"
+			href = "css/styles.css"
+		/>
+	</head>
+	<body background ="img/background.jpeg">
+		<header>
+			<h1 class="headertext">COMPANY NAME</h1>
+			<img src="img/companylogoBG.jpg" alt="Company logo" title="Company logo" width="100%">
+	    </header>
+		<nav>
+		    <a href= "index.html">Home</a>
+			<a href= "product.html">Product</a>
+			<a href= "contact.html">Blog</a>
+		</nav>
+		<article>
+		contact
+		</article>
+		<section class="contactsection">
+			<p>More information</p>
+			<form action="nowhere.php" method="post">
+				<fieldset class="contactFormFieldset">
+					<input class="contactinput"
+					type="text"
+					name="select"
+					placeholder="Select topic"
+					disabled="disabled">
+					<select class="contactoptions">
+						<option value="general">General inquiries</option>
+						<option value="press">Press relations</option>
+						<option value="recruitement">Recruitement</option>
+					</select>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input class="contactinput"
+						type="text"
+						name="contactFormName"
+						placeholder="Your name.."
+					/>
+				</fieldset>
+				<fieldset class="contactFormFieldset">
+					<input class="contactinput"
+						type="email"
+						name="email"
+						placeholder="Your email.."
+					/>
+				</fieldset>
+				<fieldset class="contactFormFieldset-textarea">
+					<textarea class="textareainput"
+						rows="7"
+						cols="40"
+						name="message"
+						placeholder="Write something.."
+					></textarea>
+				</fieldset>
+				<input class="submitinput"
+					type="submit"
+					value="Submit"
+				/>
+			</form>
+		</section>
+	</body>
+	<footer>
+	2018 - Jesse van Gelder - Inholland 
+	</footer>
+</html>

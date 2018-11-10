@@ -1,0 +1,158 @@
+header {
+	margin-left: 25%;
+	margin-right: 25%;
+	height: 175px;
+	position: relative;
+	overflow: hidden;
+}
+
+body {
+	background-repeat: no-repeat;
+}
+
+.headertext {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-size: 80px;
+}
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 80px;
+	font-family: berlin-sans, sans-serif;
+	text-shadow: 4px 0 0 #000000, -4px 0 0 #000000, 0 4px 0 #000000, 0 -4px 0 #000000, 2px 2px #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000;
+}
+
+
+nav {
+	background-color: #707070; 
+	text-align: center;
+	color: #FFFFFF;
+	font-family: arial, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-transform: uppercase;
+	word-spacing: 20px;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+article {
+	font-family: arial, sans-serif;
+	font-size: 60px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #2699FB;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+span 
+{
+    display: block;
+}
+
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: arial, sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.contactFormFieldset> :first-child{
+	width: 550px;
+	height: 2em;
+	align-items: center;
+	font-size: 1em;
+	margin-left: 20px;
+	padding: 2px;
+	padding-left: 15px;
+	margin-left:15%;
+}
+
+.contactsection{
+	background-color: #F5F5F5;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: -25px;
+	padding-bottom: 25px;
+}
+
+
+.contactsection p{
+	margin-left: 30px;
+	font-size: 1.5em;
+	color: #707070;
+	font-family: arial, sans-serif;
+	padding-left:15px;
+	padding-top: 15px;
+}
+
+.contactoptions {
+	position:absolute;
+	width:300px;
+	height:26px;
+	left:600px;
+	margin-top:2px;
+	margin-left:12%;
+}
+
+.textareainput{
+	width:550px;
+	font-size:1em;
+	font-family: arial, sans-serif;
+	padding:5px;
+	padding-left:13px;
+}
+
+.contactFormFieldset-textarea{
+	margin-left:15%;
+}
+
+.submitinput{
+	font-family: arial, sans-serif;
+	margin-left: 15%;
+	width:555px;
+	font-size:1.5em;
+	background-color: #2699FB;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top:15px;
+}
+
+.catalogsection {
+	background-color: #F5F5F5;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top:-30px;
+}
+
+.catalogphotos {
+	display:flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	margin:30px;
+}
+
+.productfooter {
+	margin-top:-30px;
+}
+
+.catalogphotos img {
+	width:245px;
+	height:165px;
+	padding:8px;
+}
