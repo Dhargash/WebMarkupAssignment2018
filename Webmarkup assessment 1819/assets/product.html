@@ -1,7 +1,28 @@
-<! DOCTYPE html >
-<html lang = "nl" >
+<!DOCTYPE html>
+<html lang = "en" >
 	<head>
 		<meta charset = "utf-8" >
+		<meta name="description" content="COMPANY NAME games product page">
+		<meta name="keywords" content="entertainment, fun, games, video games, play, playstation, chess, mobile games, products, catalog">
+		<meta name="author" content="Jesse van Gelder">
+		<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 		<title>Company Name - Product</title>
 		<link
 			rel = "stylesheet"
@@ -9,37 +30,44 @@
 			href = "css/styles.css"
 		/>
 	</head>
-	<body background ="img/background.jpeg">
+	<body>
+		<!--Video background-->
+		<video autoplay muted loop class="backgroundVideo">
+			<source src="movie/background.mp4" type="video/mp4">
+		</video>
 		<header>
 			<h1 class="headertext">COMPANY NAME</h1>
-			<img src="img/companylogoBG.jpg" alt="Company logo" title="Company logo" width="100%">
+			<img src="img/companylogoBG.jpg" alt="Company logo image" title="Company logo">
 	    </header>
 		<nav>
-		    <a href= "index.html">Home</a>
-			<a href= "product.html">Blog</a>
+			<a href= "index.html">Home</a>
+			<a href= "http://www.blogger.com">Blog</a>
 			<a href= "contact.html">Contact</a>
 		</nav>
-		<article>
-		product catalog
+		<article class="productdesktop">
+			<h2>product catalog</h2>
+		</article>
+		<article class="productmobile">
+			<h2>products</h2>
 		</article>
 		<section class="catalogsection">
-		<section class="catalogphotos">
-			<img src="img/product1.jpg" alt="Rubik's cube" title="Rubik's cube">
-			<img src="img/product2.jpg" alt="Castle" title="Castle">
-			<img src="img/product3.jpg" alt="Luigi, Yoshi & Mario" title="Luigi, Yoshi & Mario">
-			<img src="img/product4.jpg" alt="Gambling" title="Gambling">
-			<img src="img/product5.jpg" alt="Black king in chess" title="Chess black king">
-			<img src="img/product6.jpg" alt="Chess pawns" title="Chess pawns">
-			<img src="img/product7.jpg" alt="Darts" title="Darts">
-			<img src="img/product8.jpg" alt="Mobile phone" title="Mobile phone">
-			<img src="img/product9.jpg" alt="Playstation controller" title="Playstation controller">
-			<img src="img/product10.jpg" alt="SNES controller" title="SNES controller">
-			<img src="img/product11.jpg" alt="Ice ball arcade game" title="Ice ball">
-			<img src="img/product12.jpg" alt="Red cups" title="Red cups">
+			<section class="catalogphotos">
+				<img src="img/product1.jpg" alt="Rubik's cube image" title="Rubik's cube">
+				<img src="img/product2.jpg" alt="Castle image" title="Castle">
+				<img src="img/product3.jpg" alt="Luigi, Yoshi & Mario image" title="Luigi, Yoshi & Mario">
+				<img src="img/product4.jpg" alt="Gambling image" title="Gambling">
+				<img src="img/product5.jpg" alt="Black king in chess image" title="Chess black king">
+				<img src="img/product6.jpg" alt="Chess pawns image" title="Chess pawns">
+				<img src="img/product7.jpg" alt="Darts image" title="Darts">
+				<img src="img/product8.jpg" alt="Mobile phone image" title="Mobile phone">
+				<img src="img/product9.jpg" alt="Playstation controller image" title="Playstation controller">
+				<img src="img/product10.jpg" alt="SNES controller image" title="SNES controller">
+				<img src="img/product11.jpg" alt="Ice ball arcade game image" title="Ice ball">
+				<img src="img/product12.jpg" alt="Red cups image" title="Red cups">
+			</section>
 		</section>
-		</section>
+		<footer class="productfooter">
+			&copy; 2018 - Jesse van Gelder - Inholland 
+		</footer>
 	</body>
-	<footer class="productfooter">
-	2018 - Jesse van Gelder - Inholland 
-	</footer>
 </html>

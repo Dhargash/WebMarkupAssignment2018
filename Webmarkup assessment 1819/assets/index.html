@@ -1,7 +1,28 @@
-<! DOCTYPE html >
-<html lang = "nl" >
+<!DOCTYPE html>
+<html lang = "en" >
 	<head>
 		<meta charset = "utf-8" >
+		<meta name="description" content="COMPANY NAME games index page">
+		<meta name="keywords" content="entertainment, fun, games, video games, play, playstation, chess, mobile games, index, home">
+		<meta name="author" content="Jesse van Gelder">
+		<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 		<title>Company Name - Index</title>
 		<link
 			rel = "stylesheet"
@@ -9,38 +30,42 @@
 			href = "css/styles.css"
 		/>
 	</head>
-	<body background ="img/background.jpeg">
+	<body>
+	    <!--Video background-->
+		<video autoplay muted loop class="backgroundVideo">
+			<source src="movie/background.mp4" type="video/mp4">
+		</video>
 		<header>
 			<h1 class="headertext">COMPANY NAME</h1>
-			<img src="img/companylogoBG.jpg" alt="Company logo" title="Company logo" width="100%">
+			<img src="img/companylogoBG.jpg" alt="Company logo image" title="Company logo">
 	    </header>
 		<nav>
 			<a href= "product.html">Products</a>
-			Blog
+			<a href= "http://www.blogger.com">Blog</a>
 			<a href= "contact.html">Contact</a>
 		</nav>
 		<article>
-			<span>we are</span>
-			<span>entertainment</span>
-			<img src="img/product3.jpg" alt="Luigi, Yoshi & Mario" title="Luigi, Yoshi & Mario" width="100%">
+			<h2>we are</h2>
+			<h2>entertainment</h2>
+			<img src="img/product3.jpg" alt="Luigi, Yoshi & Mario image" title="Luigi, Yoshi & Mario">
 		</article>
-		<article>
-			<span>mobile</span>
-			<span>games</span>
-			<img src="img/product8.jpg" alt="Mobile phone" title="Mobile phone" width="100%">
+		<article class="articlemobilehide">
+			<h2>mobile</h2>
+			<h2>games</h2>
+			<img src="img/product8.jpg" alt="Mobile phone image" title="Mobile phone">
 		</article>
-		<article>
-			<span>board</span>
-			<span>games</span>
-			<img src="img/product6.jpg" alt="Chess pawns" title="Chess pawns" width="100%">
+		<article class="articlemobilehide">
+			<h2>board</h2>
+			<h2>games</h2>
+			<img src="img/product6.jpg" alt="Chess pawns image" title="Chess pawns" class="Chesspawns">
 		</article>
-		<article>
-			<span>console</span>
-			<span>games</span>
-			<img src="img/product9.jpg" alt="Playstation controller" title="Playstation controller" width="100%">
+		<article class="articlemobilehide">
+			<h2>console</h2>
+			<h2>games</h2>
+			<img src="img/product9.jpg" alt="Playstation controller image" title="Playstation controller" class="Playstation">
 		</article>
 		<footer>
-			2018 - Jesse van Gelder - Inholland
+			&copy; 2018 - Jesse van Gelder - Inholland
 		</footer>
 	</body>
 </html>
