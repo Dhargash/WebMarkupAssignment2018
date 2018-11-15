@@ -23,6 +23,7 @@ header {
 
 body {
 	background-repeat: no-repeat;
+	margin: 0;
 }
 
 video {
@@ -116,11 +117,12 @@ footer {
 	height: 2em;
 	align-items: center;
 	font-size: 1em;
-	margin-left: 20px;
 	padding: 2px;
 	padding-left: 15px;
 	margin-left:12%;
 }
+
+
 
 .contactsection{
 	background-color: #F5F5F5;
@@ -145,7 +147,7 @@ footer {
 	width:20%;
 	height:26px;
 	left:38%;
-	margin-top:6px;
+	margin-top:-2px;
 	margin-left:8%;
 }
 
@@ -201,6 +203,27 @@ footer {
 
 fieldset {
 	border-width: 0px;
+	
+}
+
+fieldset:first-of-type{
+	border-width: 1px;
+	background-color: #FFFFFF;
+	font-family: arial, sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#firstcontactFormFieldset label {
+	margin-left: 0.9%;
+	padding-left: 0px;
+	color: #757575;
+}
+
+#firstcontactFormFieldset {
+	margin-left: 13.2%;
+    margin-right: 16.5%;
+	margin-bottom: 10px;
 }
 
 #firstcontactinput {
@@ -333,90 +356,100 @@ fieldset {
 	}
 	
 	.contactsection{
-	margin-left: 0px;
-	margin-right: 0px;
-	height:82%;
-	padding-bottom: 5px;
+		margin-left: 0px;
+		margin-right: 0px;
+		height:82%;
+		padding-bottom: 5px;
 	}
 
 	.contactarticle {
-	display: none;
+		display: none;
 	}
 
 	.contactFormFieldset> :first-child{
-	width: 90%;
-	height: 4em;
-	align-items: center;
-	font-size: 1.2em;
-	padding: 0px;
-	padding-left: 2.5%;
-	margin-left:6%;
-	margin-top:2.5%;
+		width: 90%;
+		height: 4em;
+		align-items: center;
+		font-size: 1.2em;
+		padding: 0px;
+		padding-left: 2.5%;
+		margin-left:6%;
+		margin-top:2.5%;
 	}
 
 	.contactFormFieldset:first-of-type {
-	height: 6em;
+		height: 6em;
 	}
 
 	#firstcontactinput{
-	height: 4.5em;
-	padding-bottom: 5px;
-	padding-top: 10px;
+		height: 4.5em;
+		padding-bottom: 5px;
+		padding-top: 10px;
 	}
 
 	.textareainput{
-	width:90%;
-	font-size:1.2em;
-	padding:2px;
-	padding-left:2px;
-	margin-left:6%;
-	margin-top:2.5%;
-	padding-left:2.5%;
-	padding-top:2.5%;
+		width:90%;
+		font-size:1.2em;
+		padding:2px;
+		padding-left:2px;
+		margin-left:6%;
+		margin-top:2.5%;
+		padding-left:2.5%;
+		padding-top:2.5%;
 	}
 
 	.submitinput{
-	margin-left: 7.5%;
-	width:89.6%;
-	font-size:2em;
-	margin-top:2.5%;
-	margin-bottom: 2.5%;
-	height: 7.5%;
+		margin-left: 7.5%;
+		width:89.6%;
+		font-size:2em;
+		margin-top:2.5%;
+		margin-bottom: 2.5%;
+		height: 7.5%;
 	}
 
 	.contactoptions {
-	position:absolute;
-	width:80%;
-	height:26px;
-	left:8px;
-	font-size: 1.2em;
-	margin-top:65px;
-	margin-left:10%;
+		position:absolute;
+		width:85%;
+		height:40px;
+		left: 0px;
+		font-size: 1.2em;
+		margin-top:50px;
+		margin-left:10%;
 	}
 
 	.contactsection p {
-	font-size: 0;
-	margin-top: 25px;
-	margin-bottom: 28px;
+		font-size: 0;
+		margin-top: 25px;
+		margin-bottom: 28px;
 	}
 	
 	.productdesktop {
-	display: none;
+		display: none;
 	}
 
 	.productmobile {
-	display: none;
+		display: none;
 	}
 
 	.catalogsection {
-	margin-left: 0px;
-	margin-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	.catalogphotos img {
-	width:340px;
-	height:225px;
-	padding:5px;
+		width:340px;
+		height:225px;
+		padding:5px;
+	}
+	
+	#firstcontactFormFieldset {
+		margin-left: 7.6%;
+		margin-right: 2.9%;
+		padding-top: 15px;
+	}
+	
+	video {
+		display: none;
 	}
 
 }
@@ -497,75 +530,86 @@ fieldset {
 	}
 	
 	.catalogsection {
-	margin-left: 0px;
-	margin-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	.catalogphotos img {
-	width:100%;
-	height:100%;
-	padding:5px;
+		width:100%;
+		height:100%;
+		padding:5px;
 	}
 
 	.contactsection{
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-bottom: 5px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-bottom: 5px;
 	}
 
 	.contactarticle {
-	font-size: 30px;
+		font-size: 30px;
 	}
 
 	.contactFormFieldset> :first-child{
-	width: 90%;
-	height: 2em;
-	align-items: center;
-	font-size: 1em;
-	padding: 0px;
-	padding-left: 5px;
-	margin-left:6%;
+		width: 90%;
+		height: 2em;
+		align-items: center;
+		font-size: 1em;
+		padding: 0px;
+		padding-left: 5px;
+		margin-left:6%;
 	}
 
 	.contactFormFieldset:first-of-type {
-	height: 4em;
+		height: 4em;
 	}
 	
 	#firstcontactinput{
-	height: 4em;
-	padding-top: 5px;
-	margin-top: -5px;
+		height: 4em;
+		padding-top: 5px;
+		margin-top: -5px;
 	}
 	
 	
 	.textareainput{
-	width:90%;
-	font-size:1em;
-	padding:2px;
-	padding-left:5px;
-	margin-left:6%;
+		width:90%;
+		font-size:1em;
+		padding:2px;
+		padding-left:5px;
+		margin-left:6%;
 	}
 
 	.submitinput{
-	margin-left: 9%;
-	width:86%;
-	font-size:1em;
-	margin-top:15px;
-	margin-bottom: 2.5%;
+		margin-left: 9%;
+		width:86%;
+		font-size:1em;
+		margin-top:15px;
+		margin-bottom: 2.5%;
 	}
 
 	.contactoptions {
-	position:absolute;
-	width:80%;
-	height:26px;
-	left:8px;
-	margin-top:33px;
-	margin-left:9%;
+		position:absolute;
+		width:80%;
+		height:26px;
+		left:0px;
+		margin-top:40px;
+		margin-left:12%;
 	}
 
 	.contactsection p {
-	font-size: 0;
-	margin-top: 25px;
-	margin-bottom: 28px;
+		font-size: 0;
+		margin-top: 25px;
+		margin-bottom: 28px;
 	}
+	
+	#firstcontactFormFieldset {
+		margin-left: 9.4%;
+		margin-right: 5.2%;
+		padding-left: 4px;
+	}
+	
+	video {
+		display: none;
+	}
+	
 }
